@@ -5,7 +5,7 @@ import userEvent from '@testing-library/user-event'
 import App from '../final/01'
 // import App from '../exercise/01'
 
-test('clicking the button increments the count with useReducer', () => {
+test.skip('clicking the button increments the count with useReducer', () => {
   jest.spyOn(React, 'useReducer')
 
   const {container} = render(<App />)
